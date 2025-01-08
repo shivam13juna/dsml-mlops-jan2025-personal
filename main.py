@@ -2,7 +2,7 @@
 
 # add insert sort algo
 
-##BOOYA
+##BOOYA, are you cyborg??
 
 def insert_sort(arr):
 	for i in range(1, len(arr)):
