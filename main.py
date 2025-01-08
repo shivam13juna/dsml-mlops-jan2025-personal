@@ -9,5 +9,26 @@ def quicksort(arr):
 	right = [x for x in arr if x > pivot]
 	return quicksort(left) + middle + quicksort(right)
 
+def merge_sort(arr):
+	if len(arr) <= 1:
+		return arr
+	mid = len(arr) // 2
+	left = arr[:mid]
+	right = arr[mid:]
+	return merge(merge_sort(left), merge_sort(right))
+
+def merge(left, right):
+	result = []
+	i = j = 0
+	while i < len(left) and j < len(right):
+		if left[i] < right[j]:
+			result.append(left[i])
+			i += 1
+		else:
+			result.append(right[j])
+			j += 1
+	result += left[i:]
+	result += right[j:]
+	return result
 
 print(quicksort([3,6,8,10,1,2,1])) # [1, 1, 2, 3, 6, 8, 10]
