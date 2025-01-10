@@ -7,7 +7,7 @@
 ###Lets do it
 
 
-def insert_sort_version1(arr):
+def insert_sort(arr):
 
 	for i in range(1, len(arr)):
 		key = arr[i]
