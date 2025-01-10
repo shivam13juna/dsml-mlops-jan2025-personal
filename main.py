@@ -4,7 +4,7 @@
 
 ##BOOYA, are you cyborg??
 
-###Lets do it
+###Lets do it, today only
 
 
 def insert_sort(arr):
