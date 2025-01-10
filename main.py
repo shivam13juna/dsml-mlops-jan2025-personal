@@ -4,7 +4,9 @@
 
 ##BOOYA, are you cyborg??
 
-###Lets do it, today only
+
+###Lets do it (no way on friday on monday)
+
 
 
 def insert_sort(arr):
@@ -50,3 +52,6 @@ def merge(left, right):
 	return result
 
 print(quicksort([3,6,8,10,1,2,1])) # [1, 1, 2, 3, 6, 8, 10]
+
+
+#some nonsense from friday_finally
