@@ -6,7 +6,7 @@
 
 ###Lets do it
 
-def insert_sort(arr):
+def insert_sort_main_branch(arr):
 	for i in range(1, len(arr)):
 		key = arr[i]
 		j = i - 1
