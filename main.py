@@ -4,7 +4,7 @@
 
 ##BOOYA, are you cyborg??
 
-def insert_sort(arr):
+def insert_sort_v2(arr):
 	for i in range(1, len(arr)):
 		key = arr[i]
 		j = i - 1
